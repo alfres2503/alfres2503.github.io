@@ -1,0 +1,107 @@
+*{
+  color:white;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  background-image: url(./Img/costa-rica-flag-ruffled-beautifully-waving-macro-close-up-shot.jpg);
+}
+
+hr{
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+.imgcandidato{
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bandera{
+  height: 50px;
+  border-radius: 10px;
+}
+
+
+
+video {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+audio {
+  width: 40%;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+header{
+  background-color: rgba(42, 42, 42, 0.9);
+  border-radius: 10px;
+
+  text-align: center;
+  display: flexbox;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+article{
+  background-color: rgba(42, 42, 42, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+  padding: 5px 15px;
+  text-align: center;
+}
+
+footer{
+  background-color: rgba(42, 42, 42, 0.9);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 0px 10px;
+}
+
+
+
+
+
+
+table{
+  width: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
