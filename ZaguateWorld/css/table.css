@@ -1,0 +1,40 @@
+#table_content {
+  width: 95%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  background: #FFF;
+}
+
+table{
+  border:none;
+  width: 100%;
+}
+
+caption{
+  height: 60px;
+  text-align: center;
+  padding: 4px;
+  background-color: #53c7fd;
+  color: #fff;
+}
+
+caption h1{
+  color: #fff;
+}
+
+thead{
+  height: 30px;
+  background-color: #E5017D;
+  color: #fff;
+}
+
+tfoot{
+  height: 30px;
+  background-color: #E5017D;
+  color: #fff;
+}
+
+td img{
+  width: 150px;
+}

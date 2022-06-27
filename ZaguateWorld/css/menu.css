@@ -1,0 +1,61 @@
+﻿#container {
+    overflow: hidden;
+    background: #53c7fd;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#container .principal {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+}
+
+#container a:hover,
+.dropdown:hover .dropbtn {
+    color: #E5017D;
+    background: #53c7fd;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    color: white;
+    padding: 10px 25px 10px 25px;
+    background-color: #53c7fd;
+
+}
+
+#container a.last {
+    border-right: 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #53c7fd;
+    min-width: 137px;
+    margin-top: 37px;
+
+}
+
+.dropdown-content a {
+    display: block;
+    float: none;
+    color: white;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    text-decoration: none;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
